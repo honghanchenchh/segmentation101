@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 
 # 1.
 # load image data
-# 读图像数据, 将原图和分割标准图像路径改为数据存放路径
-img_path = '/home/chh/data/datasets/VOC/VOCdevkit/VOC2012/JPEGImages/2007_000033.jpg'
-label_path = '/home/chh/data/datasets/VOC/VOCdevkit/VOC2012/SegmentationClass/2007_000033.png'
+# 读图像数据, 将原图和分割标准图像路径改为数据存放路径,<user>更改为自定的存放路径
+img_path = '/home/<user>/VOC/VOCdevkit/VOC2012/JPEGImages/2007_000033.jpg'
+label_path = '/home/<user>/VOC/VOCdevkit/VOC2012/SegmentationClass/2007_000033.png'
 img = Image.open(img_path)
 label_img = Image.open(label_path)
 
